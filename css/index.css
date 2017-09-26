@@ -11,6 +11,9 @@ header {
   position: relative;
   overflow: hidden;
 }
+header .head {
+  width: 100%;
+}
 header .time {
   display: block;
   text-align: center;
@@ -19,7 +22,7 @@ header .time {
   font-weight: 400;
   color: #fff;
   position: relative;
-  top: -3rem;
+  top: -2.8rem;
 }
 header .gz {
   position: relative;
@@ -63,7 +66,7 @@ header .row > .gz-info p:last-child {
 }
 header .row > .gz-info > p {
   color: #FFFFFF;
-  font-size: 0.26rem;
+  font-size: 0.24rem;
 }
 header .row > .bwx-info {
   position: relative;
@@ -102,8 +105,8 @@ header .phb-list .nav-tabs li:nth-child(1) a {
   padding: 0;
   background-color: #583449;
   width: 2.8rem;
-  height: 0.72rem;
-  line-height: 0.72rem;
+  height: 0.62rem;
+  line-height: 0.62rem;
   /*padding-left: 0.2rem;*/
   color: #fff;
   border-radius: 33px;
@@ -119,8 +122,8 @@ header .phb-list .nav-tabs li:nth-child(2) a {
   background-color: #583449;
   border-radius: 33px;
   width: 2.8rem;
-  height: 0.72rem;
-  line-height: 0.72rem;
+  height: 0.62rem;
+  line-height: 0.62rem;
   padding: 0;
 }
 header .phb-list .nav-tabs li {
@@ -134,11 +137,11 @@ header .phb-list .nav-tabs li.active a:link {
   font-size: 0.32rem;
   margin: 0;
   width: 2.8rem;
-  height: 0.72rem;
+  height: 0.62rem;
   color: #fff;
   background: linear-gradient(to bottom, #f4bf5a, #af4f1c);
   border-radius: 33px;
-  line-height: 0.72rem;
+  line-height: 0.62rem;
 }
 header .phb-list .tab-content {
   padding-top: 0.45rem;
@@ -200,7 +203,7 @@ header .phb-list .box span:nth-child(4) {
   top: .52rem;
   left: 4.25rem;
   font-size: .24rem;
-  color: #ff3971;
+  color: #dab720;
 }
 header .phb-list .min {
   margin-bottom: 0.25rem;
@@ -265,7 +268,7 @@ header .phb-list #profile .box span:nth-child(4) {
   top: .52rem;
   left: 4.25rem;
   font-size: .24rem;
-  color: #ff3971;
+  color: #dab720;
 }
 header .phb-list #profile .min {
   margin-bottom: 0.25rem;
@@ -300,6 +303,7 @@ header .footer {
   overflow: hidden;
   height: 1.41rem;
   background-color: #543E4A;
+  box-shadow: 10px 43px #483540;
 }
 header .footer img {
   position: absolute;

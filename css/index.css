@@ -261,7 +261,7 @@ header .phb-list #profile .box span:nth-child(3) {
   overflow: hidden;
   text-align: center;
   position: absolute;
-  top: .42rem;
+  top: .43rem;
   left: 2.2rem;
   font-size: .26rem;
   color: #fff;
@@ -272,7 +272,7 @@ header .phb-list #profile .box span:nth-child(4) {
   text-overflow: ellipsis;
   overflow: hidden;
   position: absolute;
-  top: .42rem;
+  top: .43rem;
   left: 4.25rem;
   font-size: .24rem;
   color: #dab720;
